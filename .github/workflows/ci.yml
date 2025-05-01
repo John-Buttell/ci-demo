@@ -1,4 +1,7 @@
 name: Lint and Test
+- uses: actions/setup-node@v2
+      with:
+        node-version: 22
 
 on:
   push:
